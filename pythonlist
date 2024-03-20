@@ -1,0 +1,17 @@
+list1=[1,5,2,3,6]
+list2=[5,9,4,2,53]
+
+cmn_list=[]
+
+for i in list1:
+    if i in list2 and i not in cmn_list:
+        cmn_list.append(i)
+print(cmn_list)
+#remove duplicates from the list
+lst=[4,8,5,9,8,5,2,3,4]
+temp_lst=[]
+for i in lst:
+    if i not in temp_lst:
+        temp_lst.append(i)
+lst=temp_lst
+print(lst)
